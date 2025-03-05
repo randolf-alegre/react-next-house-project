@@ -17,6 +17,19 @@ bun dev
 ## RUN LOCAL SERVER
 NOTE: Make sure port 5000 is available. If json-server is not installed. Please do so.
 
+## SETUP ENV
+
+Create a .env file and add the following:
+LOCAL_SERVER=http://localhost:5000
+DB_COLLECTION=/houses
+API_ENDPOINT=/api/houses
+
+Install json-server if not installed yet:
+
+```bash
+npm install json-server
+```
+
 run the following:
 ```bash
 json-server --watch db.json --port 5000
@@ -30,3 +43,5 @@ json-server --watch db.json --port 5000
 6. Break components into smaller components. (1hr)
 7. Start coding (32hrs)
 8. Unit testing of target component (5hrs)
+
+
