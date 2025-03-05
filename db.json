@@ -1,0 +1,14 @@
+{
+  "houses": [
+    {
+      "id": "9425e687-57f1-4033-9c81-39f3f7746dcf",
+      "numberOfFloors": 1,
+      "color": "white"
+    },
+    {
+      "id": "fa892bb9-2e4c-4e65-ad53-47248035ee4a",
+      "numberOfFloors": 1,
+      "color": "white"
+    }
+  ]
+}
